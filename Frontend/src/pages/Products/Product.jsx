@@ -31,7 +31,7 @@ const Product = () => {
     <div className="container">
       <div className="row justify-content-between">
         <div className="top">
-          <h3>FEATURED PRODUCT</h3>
+          <h3>FEATURED PRODUCTS</h3>
         </div>
         {product&&product.map((productss)=>(
           <div className="bottom row all col-lg-3 mb-5">
