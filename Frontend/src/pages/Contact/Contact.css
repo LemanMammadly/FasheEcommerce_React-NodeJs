@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins&display=swap');
+
+
+
+#contact-title{
+    background-image: url("https://static.pullandbear.net/2/photos//2022/I/0/1/p/8675/327/505/04/8675327505_5_1_8.jpg?t=1661856073243&imwidth=1440");
+    padding: 6rem 0;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#contact-title .text-title{
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height:60px ;
+}
+
+
+#contact-main .email{
+    border: 1px solid rgba(129, 129, 129, 0.397);
+    line-height: 22px;
+    font-weight: 400;
+    padding: 10px;
+
+}
+
+
+#contact-main .email i{
+    font-size: 20px;
+    color: rgba(129, 129, 129, 0.397);
+    margin-right: 5px;
+    margin-left: 11px;
+}
+
+#contact-main .email input{
+    border: none;
+    outline: none;
+}
+
+#contact-main textarea{
+    padding: 20px;
+    outline: none;
+    border: 1px solid rgba(129, 129, 129, 0.397);
+}
+
+#contact-main .message{
+    margin-top: 30px;
+}
+
+
+#contact-main .all{
+    border: 1px solid rgba(129, 129, 129, 0.397);
+}
+
+
+#contact-main .btns{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#contact-main .btn {
+    border: none;
+    font-weight: bold;
+    width: 28rem;
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 2rem;
+    height: 3rem;
+    color: whitesmoke;
+  }
+  
+  #contact-main .btn:hover {
+    background-color: whitesmoke;
+    color: #333;
+  }
+  
+
+  #contact-main .alldiv  i{
+    font-size: 18px;
+    color: rgba(35, 35, 35, 0.397);
+    margin-right: 25px;
+  }
+
+  #contact-main .alldiv span{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+  }
+
+  #contact-main .alladressdiv{
+    margin: 4rem 0;
+  }
+  #contact-main .alldiv p{
+    font-size: 15px;
+    color: #888;
+    font-weight: 400;
+  }
+
+  #contact-main .alldiv{
+    padding: 90px 120px;
+  }
+
+  #contact-main .alldiv .bluetext{
+    color:  #7381E0;
+  }
+
+  #contact-main .adressesall{
+    margin: 40px 0;
+    display: flex;
+  }
+
+
+  @media(max-width:576px){
+    #contact-main textarea{
+        width: 305px;
+    }
+
+    #contact-main{
+        margin: 0 10px;
+    }
+    #contact-main .alldiv{
+        padding: 20px;
+    }
+  }

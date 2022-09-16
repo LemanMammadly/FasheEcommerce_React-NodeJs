@@ -1,0 +1,43 @@
+.messagedetail {
+    display: flex !important;
+    margin-bottom: 50px;
+}
+
+.messagedetail .table{
+    margin-top: 40px !important;
+    margin-right: 90px !important;
+}
+.messagedetail img {
+    height: 200px;
+    width: 300px;
+}
+.messagedetail table {
+    border: 0px solid #C1DAD7;
+}
+.messagedetail img{
+    height: auto;
+    object-fit: cover;
+    width: 40%;
+}
+
+.messagedetail .btn1{
+    background-color: rgb(220, 216, 216) !important;
+    color: #333;
+}
+
+.messagedetail .btn2{
+    color: #fff;
+    background-color:#333 !important;
+}
+
+.messagedetail .btn2{
+    margin-top: 50px;
+}
+
+.messagedetail .text{
+    margin-top: 55px;
+}
+
+.messagedetail .tablediv{
+    margin-right: 30px;
+}

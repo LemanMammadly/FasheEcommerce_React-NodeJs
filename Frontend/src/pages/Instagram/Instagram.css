@@ -1,0 +1,75 @@
+.instagram {
+    padding: 60px;
+}
+.instagram h3{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.instagram .bottom .imgs{
+    position: relative;
+}
+.instagram .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+    transition: .9s;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.60);
+    width: 90%;
+    height: 100%;
+}
+.instagram .text span i{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.instagram .text p{
+    margin-top: 30px;
+    margin: 0 20px;
+    font-size: 15px;
+}
+.instagram .text span p{
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.instagram .bottom .imgs:hover .text{
+    opacity: 1;
+}
+
+@media(max-width:576px){
+    .instagram .text{
+        padding: 30px 20px;
+        font-size: 20px;
+        width: 92%;
+    }
+}
+
+
+@media(max-width : 992px) and (min-width:576px){
+    .instagram .imgsdiv{
+        text-align: center;
+    }
+    .instagram img{
+        width: 655px;
+        object-fit: contain;
+    }
+    .instagram .bottom .imgs{
+        position: relative;
+    }
+    .instagram .text p{
+        font-size: 30px;
+    }
+    .instagram .text{
+        padding: 350px 20px;
+        font-size: 30px;
+    }
+    .instagram .text span p{
+        font-size: 20px;
+    }
+
+}
