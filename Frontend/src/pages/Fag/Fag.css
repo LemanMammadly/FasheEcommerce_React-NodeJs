@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans&family=Poppins&display=swap');
+#fag{
+    padding: 2rem 0;
+    font-family: 'Open Sans', sans-serif;
+}
+#fag .question ul{
+    list-style: decimal;
+}
+#fag .answer ul{
+    list-style: none;
+}
+
+#fag .answer span{
+    font-weight: bold;
+} 
+
+#fag .answer p{
+    margin-left: 14px;
+}
+#fag .answer .ans{
+    color: #373737;
+}
+
+#fag h2{
+    margin-top: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+#fag  a{
+    text-decoration-line: underline;
+    color: #374455;
+}
+#fag  a:hover{
+    color: #000;
+}
+
+#fag  h5{
+    margin-top: 30px;
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+
+#fag hr {
+    border-top: 1px dotted black;
+  }
+

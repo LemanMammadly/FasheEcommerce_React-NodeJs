@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
-import { useLocation } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import './Footer.css'
 
 const Footer = () => {
@@ -28,6 +28,8 @@ const Footer = () => {
     if (pathname === '/settingdetail') return null;
     if (pathname === '/adressDetail') return null;
     if (pathname === '/messageDetail') return null;
+    if (pathname === '/addfags') return null;
+    if (pathname === '/fagsDetail') return null;
 
 
 
@@ -78,7 +80,7 @@ const Footer = () => {
                         <a href="/">Track Order</a>
                         <a href="/">Returns</a>
                         <a href="/">Shipping</a>
-                        <a href="/">FAQs</a>
+                        <NavLink to="/fags">FAQs</NavLink>
                       </div>
                     </div>
                     <div className="newsletter col-lg-3">

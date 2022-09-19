@@ -27,6 +27,10 @@ import Contact from './pages/Contact/Contact';
 import AdressDetail from './adminpanel/adress/AdressDetail';
 import UpdateAdress from './adminpanel/adress/UpdateAdress';
 import MessageDetail from './adminpanel/message/MessageDetail';
+import Fag from './pages/Fag/Fag';
+import AddFags from './adminpanel/fags/AddFags';
+import FagsDetail from './adminpanel/fags/FagsDetail';
+import UpdateFags from './adminpanel/fags/UpdateFags';
 
 
 
@@ -60,6 +64,10 @@ function App() {
       <Route path='/adressDetail' element={<AdressDetail/>}/>
       <Route path='/updateAdress/:id' element={<UpdateAdress/>}/>
       <Route path='/messageDetail' element={<MessageDetail/>}/>
+      <Route path='/fags' element={<Fag/>}/>
+      <Route path='/addfags' element={<AddFags/>}/>
+      <Route path='/fagsDetail' element={<FagsDetail/>}/>
+      <Route path='/updateFags/:id' element={<UpdateFags/>}/>
     </Routes>
     <Footer/>
    </BrowserRouter>

@@ -11,6 +11,7 @@ const instagramRouter=require('./routes/instagramRoutes')
 const logoRouter=require('./routes/LogoRoutes')
 const messageRouter=require('./routes/messageRoute')
 const adressRouter=require('./routes/adressRouter')
+const fagsRouter=require('./routes/fagsRouter')
 
 const app = express();
 
@@ -31,6 +32,7 @@ app.use('/instagram',instagramRouter)
 app.use('/logo',logoRouter)
 app.use('/message',messageRouter)
 app.use('/adress',adressRouter)
+app.use('/fags',fagsRouter)
 
 mongoose.connect(`mongodb+srv://Laman:rBd8q8Tq2iwWIUZC@cluster0.m9czfiv.mongodb.net/FinalProject?retryWrites=true&w=majority`)
 .then(() => console.log('Connect Database...!'))

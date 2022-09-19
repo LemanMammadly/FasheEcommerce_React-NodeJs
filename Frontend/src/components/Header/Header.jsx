@@ -34,6 +34,9 @@ const Header = () => {
     else if (pathname === '/settingdetail') return null;
     else if (pathname === '/adressDetail') return null;
     else if (pathname === '/messageDetail') return null;
+    else if (pathname === '/addfags') return null;
+    else if (pathname === '/fagsDetail') return null;
+
 
 
 
@@ -48,8 +51,8 @@ const Header = () => {
                 </div>
                 <div className="row center col-lg-6 text-end">
                     <div className="all-link">
-                        <a href="/">Home</a>
-                        <a href="/shop">Shop</a>
+                        <NavLink to="/">Home</NavLink>
+                        <NavLink to="/shop">Shop</NavLink>
                         <a className="red" href="/sale">Sale</a>
                         <a href="/features">Features</a>
                         <a href=".blog">Blog</a>

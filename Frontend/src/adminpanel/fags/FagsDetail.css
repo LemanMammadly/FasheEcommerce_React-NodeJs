@@ -1,0 +1,36 @@
+.fagsdetail {
+    display: flex !important;
+    margin-bottom: 50px;
+}
+
+.fagsdetail .table{
+    margin-top: 40px;
+    margin-right: 90px !important;
+}
+
+.fagsdetail table {
+    border: 0px solid #C1DAD7;
+}
+
+
+.fagsdetail .btn1{
+    background-color: rgb(220, 216, 216) !important;
+    color: #333;
+}
+
+.fagsdetail .btn2{
+    color: #fff;
+    background-color:#333 !important;
+}
+
+.fagsdetail .btnn{
+    margin-top: 50px;
+}
+
+.fagsdetail .text{
+    margin-top: 55px;
+}
+
+.fagsdetail .tablediv{
+    margin-right: 30px;
+}

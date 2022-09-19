@@ -50,5 +50,14 @@ export const NavItems=[
         {title:'Message Detail', to: '/messageDetail'},
     ],
     open:false
-}
+},
+{name:'FAQs',
+    links:[
+        {title:'Add FAQs', to: '/addfags'},
+        {title:'FAQs Detail', to: '/fagsDetail'},
+
+    ],
+    open:false
+},
+
 ]
