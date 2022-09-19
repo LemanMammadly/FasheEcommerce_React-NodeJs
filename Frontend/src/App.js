@@ -31,12 +31,14 @@ import Fag from './pages/Fag/Fag';
 import AddFags from './adminpanel/fags/AddFags';
 import FagsDetail from './adminpanel/fags/FagsDetail';
 import UpdateFags from './adminpanel/fags/UpdateFags';
+import ScrollTop from './components/ScrollTop/ScrollTop';
 
 
 
 function App() {
   return (
    <BrowserRouter>
+   <ScrollTop>
     <Header/>
     <Routes>
       <Route path='/' element={<Home/>} exact/>
@@ -70,6 +72,7 @@ function App() {
       <Route path='/updateFags/:id' element={<UpdateFags/>}/>
     </Routes>
     <Footer/>
+    </ScrollTop>
    </BrowserRouter>
   );
 }

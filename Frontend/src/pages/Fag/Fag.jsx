@@ -33,7 +33,7 @@ const Fag = () => {
                 <h5>Answers</h5>
                 { fags && fags.map((fagss)=>(
                     <div className="allans">
-                    <p className="anchor">Q: <span>{fagss.question}</span></p>
+                    <p id={fagss.fag_id} className="anchor">Q: <span>{fagss.question}</span></p>
                     <p className='ans' id={fagss.fag_id}>A: {fagss.answer}</p>
                    <a href="#return" className='top'>Return to Top</a>
                    <hr />

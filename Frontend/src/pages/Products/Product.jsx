@@ -34,7 +34,7 @@ const Product = () => {
           <h3>FEATURED PRODUCTS</h3>
         </div>
         {product&&product.map((productss)=>(
-          <div className="bottom row all col-lg-3 mb-5">
+          <div className="bottom all col-lg-3 mb-5">
           <div className="box">
           <div className="btm-img">
             <img className='img-fluid' src={productss.image} alt="" />

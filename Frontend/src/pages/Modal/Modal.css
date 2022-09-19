@@ -18,13 +18,13 @@
     background-color: #111;
     padding: 9px 24px;
     border-radius: 20px;
-    font-size: 14px;
     transition: .5s;
     margin-top: 7px;
 }
 .modal .btn a{
     color: #fff;
     text-decoration: none;
+    font-size: 13px;
 }
 
 .modal .btnn{
@@ -41,11 +41,37 @@
     background-color: #111;
     padding: 9px 24px;
     border-radius: 20px;
-    font-size: 14px;
     transition: .5s;
     margin-top: 7px;
 }
 .modal .btnn a{
     color: #fff;
     text-decoration: none;
+    font-size: 13px;
+}
+
+@media (max-width: 576px) {
+    .modal img {
+        width: 325px !important;
+        height: 60vh;
+        object-fit: cover;
+    }
+    .modal .btns{
+        height: 30px;
+        margin-left: 20px;
+    }
+    .modal .btn{
+        width: 150px;
+        margin-top: 60px;
+    }
+    .modal .btnn{
+        width: 150px;
+        margin-top: 40px;
+    }
+    .modal .p{
+        display: none !important;
+    }
+    .modal p{
+        margin-top: 30px !important
+    }
 }

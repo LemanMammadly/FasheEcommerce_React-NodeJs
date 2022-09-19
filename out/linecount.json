@@ -1,0 +1,790 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "/Users/imac/Desktop/FinalProject___0",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2022-09-20 00:01:47",
+            "filesum": 127,
+            "codesum": 38176,
+            "commentsum": 40,
+            "blanksum": 876,
+            "filelist": [
+                {
+                    "blank": 5,
+                    "code": 37,
+                    "comment": 2,
+                    "filename": "Backend/app.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "Backend/controllers/addressController.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 91,
+                    "comment": 0,
+                    "filename": "Backend/controllers/cardController.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 91,
+                    "comment": 0,
+                    "filename": "Backend/controllers/fagController.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 91,
+                    "comment": 0,
+                    "filename": "Backend/controllers/instagramController.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "Backend/controllers/LogoController.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 68,
+                    "comment": 0,
+                    "filename": "Backend/controllers/messageController.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 87,
+                    "comment": 0,
+                    "filename": "Backend/controllers/photosController.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 74,
+                    "comment": 0,
+                    "filename": "Backend/controllers/settingController.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "Backend/controllers/SliderControllers.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "Backend/model/adressSchema.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "Backend/model/cardSchema.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "Backend/model/fagSchema.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "Backend/model/instagramSchema.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Backend/model/LogoSchema.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "Backend/model/messageSchema.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Backend/model/photosSchema.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "Backend/model/settingsSchema.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "Backend/model/SliderSchema.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 2476,
+                    "comment": 0,
+                    "filename": "Backend/package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "Backend/package.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Backend/routes/adressRouter.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "Backend/routes/cardRoutes.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "Backend/routes/fagsRouter.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "Backend/routes/instagramRoutes.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Backend/routes/LogoRoutes.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Backend/routes/messageRoute.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "Backend/routes/photosRoutes.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Backend/routes/settingRoutes.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "Backend/routes/SliderRoutes.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 30149,
+                    "comment": 0,
+                    "filename": "Frontend/package-lock.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "Frontend/package.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "Frontend/public/index.html"
+                },
+                {
+                    "blank": 15,
+                    "code": 21,
+                    "comment": 4,
+                    "filename": "Frontend/README.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/Admin.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/Admins.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/adress/AdressDetail.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 43,
+                    "comment": 1,
+                    "filename": "Frontend/src/adminpanel/adress/AdressDetail.jsx"
+                },
+                {
+                    "blank": 18,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/adress/UpdateAdress.css"
+                },
+                {
+                    "blank": 8,
+                    "code": 63,
+                    "comment": 2,
+                    "filename": "Frontend/src/adminpanel/adress/UpdateAdress.jsx"
+                },
+                {
+                    "blank": 19,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/fags/AddFags.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/fags/AddFags.jsx"
+                },
+                {
+                    "blank": 8,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/fags/FagsDetail.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 50,
+                    "comment": 2,
+                    "filename": "Frontend/src/adminpanel/fags/FagsDetail.jsx"
+                },
+                {
+                    "blank": 18,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/fags/UpdateFags.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 63,
+                    "comment": 2,
+                    "filename": "Frontend/src/adminpanel/fags/UpdateFags.jsx"
+                },
+                {
+                    "blank": 19,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/instagram/AddInstagram.css"
+                },
+                {
+                    "blank": 12,
+                    "code": 60,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/instagram/AddInstagram.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/instagram/InstagramDetail.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 50,
+                    "comment": 2,
+                    "filename": "Frontend/src/adminpanel/instagram/InstagramDetail.jsx"
+                },
+                {
+                    "blank": 18,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/instagram/UpdateInstagram.css"
+                },
+                {
+                    "blank": 8,
+                    "code": 63,
+                    "comment": 2,
+                    "filename": "Frontend/src/adminpanel/instagram/UpdateInstagram.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/Logo/LogoDetail.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 46,
+                    "comment": 1,
+                    "filename": "Frontend/src/adminpanel/Logo/LogoDetail.jsx"
+                },
+                {
+                    "blank": 18,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/Logo/UpdateLogo.css"
+                },
+                {
+                    "blank": 10,
+                    "code": 53,
+                    "comment": 2,
+                    "filename": "Frontend/src/adminpanel/Logo/UpdateLogo.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/message/MessageDetail.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 43,
+                    "comment": 1,
+                    "filename": "Frontend/src/adminpanel/message/MessageDetail.jsx"
+                },
+                {
+                    "blank": 19,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/photos/AddPhotos.css"
+                },
+                {
+                    "blank": 8,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/photos/AddPhotos.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/photos/PhotosDetail.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 49,
+                    "comment": 2,
+                    "filename": "Frontend/src/adminpanel/photos/PhotosDetail.jsx"
+                },
+                {
+                    "blank": 18,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/photos/UpdatePhotos.css"
+                },
+                {
+                    "blank": 11,
+                    "code": 53,
+                    "comment": 2,
+                    "filename": "Frontend/src/adminpanel/photos/UpdatePhotos.jsx"
+                },
+                {
+                    "blank": 19,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/products/AddProducts.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 60,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/products/AddProducts.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/products/ProductDetail.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 50,
+                    "comment": 2,
+                    "filename": "Frontend/src/adminpanel/products/ProductDetail.jsx"
+                },
+                {
+                    "blank": 18,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/products/UpdateProducts.css"
+                },
+                {
+                    "blank": 8,
+                    "code": 63,
+                    "comment": 2,
+                    "filename": "Frontend/src/adminpanel/products/UpdateProducts.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/settingss/SetingDetail.css"
+                },
+                {
+                    "blank": 8,
+                    "code": 50,
+                    "comment": 1,
+                    "filename": "Frontend/src/adminpanel/settingss/SetingsDetail.jsx"
+                },
+                {
+                    "blank": 18,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/settingss/UpdateSetting.css"
+                },
+                {
+                    "blank": 8,
+                    "code": 78,
+                    "comment": 2,
+                    "filename": "Frontend/src/adminpanel/settingss/UpdateSetting.jsx"
+                },
+                {
+                    "blank": 19,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/slider/AddSlider.css"
+                },
+                {
+                    "blank": 10,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/slider/AddSlider.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/slider/Slider.Detail.css"
+                },
+                {
+                    "blank": 10,
+                    "code": 56,
+                    "comment": 2,
+                    "filename": "Frontend/src/adminpanel/slider/SliderDetail.jsx"
+                },
+                {
+                    "blank": 19,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "Frontend/src/adminpanel/slider/UpdateSlider.css"
+                },
+                {
+                    "blank": 17,
+                    "code": 67,
+                    "comment": 2,
+                    "filename": "Frontend/src/adminpanel/slider/UpdateSlider.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "Frontend/src/App.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 73,
+                    "comment": 0,
+                    "filename": "Frontend/src/App.js"
+                },
+                {
+                    "filename": "Frontend/src/assets/Bisuteria_woman.jpeg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend/src/assets/blackwoman.jpeg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend/src/assets/Bolsos_woman.jpeg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend/src/assets/Cargo_woman.jpeg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend/src/assets/dash.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend/src/assets/dasssshh.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend/src/assets/download.jpeg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend/src/assets/lookbook.jpeg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend/src/assets/pb.jpeg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend/src/assets/sari.jpeg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Frontend/src/assets/xbanner-08.jpg.pagespeed.ic.DRRTVgFQa3.jpeg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "Frontend/src/components/Context/Context.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "Frontend/src/components/CounDown/UseCountdown.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 83,
+                    "comment": 0,
+                    "filename": "Frontend/src/components/Footer/Footer.css"
+                },
+                {
+                    "blank": 10,
+                    "code": 102,
+                    "comment": 0,
+                    "filename": "Frontend/src/components/Footer/Footer.jsx"
+                },
+                {
+                    "blank": 11,
+                    "code": 103,
+                    "comment": 0,
+                    "filename": "Frontend/src/components/Header/Header.css"
+                },
+                {
+                    "blank": 11,
+                    "code": 72,
+                    "comment": 4,
+                    "filename": "Frontend/src/components/Header/Header.jsx"
+                },
+                {
+                    "blank": 17,
+                    "code": 86,
+                    "comment": 0,
+                    "filename": "Frontend/src/components/Menu/Menu.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "Frontend/src/components/Menu/Menu.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "Frontend/src/components/Menu/MenuItems.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "Frontend/src/components/SideBarDropdown/SideBarDrop.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "Frontend/src/components/SideBarDropdown/SideBarDrop.jsx"
+                },
+                {
+                    "blank": 10,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "Frontend/src/components/SideBarDropdown/SideItem.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 61,
+                    "comment": 0,
+                    "filename": "Frontend/src/data/NavItemData.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "Frontend/src/index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/About/About.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/About/About.jsx"
+                },
+                {
+                    "blank": 29,
+                    "code": 98,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/Contact/Contact.css"
+                },
+                {
+                    "blank": 11,
+                    "code": 74,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/Contact/Contact.jsx"
+                },
+                {
+                    "blank": 8,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/Fag/Fag.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/Fag/Fag.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/Home/Home.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/Home/Home.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/Instagram/Instagram.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/Instagram/Instagram.jsx"
+                },
+                {
+                    "blank": 10,
+                    "code": 70,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/Lookbook/Lookbook.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/Lookbook/Lookbook.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/Modal/Modal.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/Modal/Modal.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/Photos/Photos.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/Photos/Photos.jsx"
+                },
+                {
+                    "blank": 11,
+                    "code": 80,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/Products/Product.css"
+                },
+                {
+                    "blank": 10,
+                    "code": 56,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/Products/Product.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 70,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/Slideer/Slideer.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "Frontend/src/pages/Slideer/Slideer.jsx"
+                }
+            ]
+        }
+    ]
+}

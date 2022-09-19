@@ -32,12 +32,14 @@ const Modal = ({image,title,price,hide}) => {
                    <p className='title'>{title}</p>
                     <p className='price'>{price} AZN</p>
                    </div>
+                   <div className="btns">
                    <div className="btn">
                     <NavLink to="/">ADD TO CARD</NavLink>
                     </div>
                     <div className="btnn">
                     <NavLink to="/">READ MORE</NavLink>
                     </div>
+                   </div>
                 </div>
                 </div>
             </div>  
