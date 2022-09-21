@@ -46,7 +46,9 @@ const Header = () => {
             <div className="row all py-3 justify-content-between">
                 <div className="left col-lg-2 col-5">
                 {logo && logo.slice(0,1).map((logos)=>(
-                    <img className='img-fluid' src={logos.logo} alt="" />
+                    <NavLink to={'/'}>
+                        <img className='img-fluid' src={logos.logo} alt="" />
+                    </NavLink>
                 ))}
                 </div>
                 <div className="row center col-lg-6 text-end">

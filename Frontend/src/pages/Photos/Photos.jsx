@@ -23,9 +23,7 @@ const Photos = () => {
                     <div className="col-lg-4 photo">
                     <div className="img-cat">
                     <img className='img-fluid' src={photoss.image} alt="" />
-                    <div className="textcat">
-                        <a href="/">DRESSES</a>
-                    </div>
+                    
                     </div>
                 </div>
                 ))}
