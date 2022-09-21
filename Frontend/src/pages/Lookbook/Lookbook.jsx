@@ -22,12 +22,15 @@ const Lookbook = () => {
                 </div>
                 <div className='white'>
                            <div className="countdowndiv col-lg-12 text-center">
-                           <h5 className='h5'>We are opening up soon!</h5>
+                           <div className="hll">
+                           <p className='h5'>We are opening up soon!</p>
+                           <p className='h5t'>We are opening up soon!</p>
+                           </div>
                             <div className="alltimecount">
                             <div className="countdown row">
                                <div className='time'>
-                               <span className='timer'>{`${days} : `}</span>
-                               <span className='timer'>{`0${hours} :  `}</span>
+                               <span className='timer d'>{`${days} : `}</span>
+                               <span className='timer h'>{`0${hours} :  `}</span>
                                <span className='timer'>{`${minutes} : `}</span>
                                <span className='timer'>{`${seconds}`}</span>
                                </div>
