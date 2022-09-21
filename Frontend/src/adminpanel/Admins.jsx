@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../adminpanel/Admin.css"
 import png from './../assets/dasssshh.png'
 import SideBarDrop from '../components/SideBarDropdown/SideBarDrop'
 
 const Admins = () => {
+  useEffect(() => {
+    document.title = 'Admin Panel';
+  });
   return (
     <div className='admin'>
        <div className="col-lg-2">

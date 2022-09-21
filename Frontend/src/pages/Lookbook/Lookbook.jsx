@@ -21,17 +21,25 @@ const Lookbook = () => {
                     <img className='img-fluid img1' src={lookbook} alt="" />
                 </div>
                 <div className='white'>
-                <div className='coming-soon col-lg-6'>
-                    </div>
                            <div className="countdowndiv col-lg-12 text-center">
                            <h5 className='h5'>We are opening up soon!</h5>
-                            <div className="countdown">
+                            <div className="alltimecount">
+                            <div className="countdown row">
                                <div className='time'>
                                <span className='timer'>{`${days} : `}</span>
                                <span className='timer'>{`0${hours} :  `}</span>
                                <span className='timer'>{`${minutes} : `}</span>
                                <span className='timer'>{`${seconds}`}</span>
                                </div>
+                            </div>
+                            <div>
+                            <div className='timename'>
+                               <span className='dys' >DAYS  </span>
+                               <span className='hrs' > HOURS  </span>
+                               <span className='mnt'> MINUTES  </span>
+                               <span className='scd'> SECONDS  </span>
+                               </div>
+                            </div>
                             </div>
                     </div>
                 </div>

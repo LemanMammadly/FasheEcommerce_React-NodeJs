@@ -29,11 +29,11 @@
     font-size: 15px;
     border-radius: 30px;
     padding: 15px 35px;
-    transition: .3s;
+    transition: .8s;
 }
 
 .homeslider a:hover{
-    background-color: #E55540;
+    background-color: #032047;
     color: #fff;
 }
 

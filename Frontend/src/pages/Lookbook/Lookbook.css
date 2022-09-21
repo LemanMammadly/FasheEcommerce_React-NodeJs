@@ -3,12 +3,6 @@
     padding: 30px;
 }
 
-.alldivcount .coming-soon{
-    min-height: 40vh;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
 
 .alldivcount .countdown{
     display: flex ;
@@ -25,7 +19,6 @@
 
 .alldivcount .time{
     padding: 20px 40px;
-    border: 3px solid #87879953;
 }
 
 .alldivcount .right{
@@ -35,15 +28,34 @@
 .alldivcount .h5{
     margin-bottom: 50px;
     font-weight: bold;
-    color: #878799ab;
+    color: #272729ab;
     font-size: 30px;
-    font-family: monospace;
+    letter-spacing: 2px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .alldivcount .timer{
-    color: #9cafe7;
+    color: #707ea7;
     font-size: 20px;
     font-weight: bold;
-    font-family:monospace
+    letter-spacing: 6px;
+}
+.alldivcount .alltimecount{
+    border: 1px solid #000000;
+    padding: 6px 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.alldivcount .alltimecount .dys{
+    margin-left: 22px;
+}
+.alldivcount .alltimecount .hrs{
+    margin-left: 15px;
+    text-align: left;
+}
+.alldivcount .alltimecount .mnt{
+    margin-left: 15px;
+}
+.alldivcount .alltimecount .scd{
+    margin-left: 15px;
 }
 
 .alldivcount .white{
@@ -61,8 +73,15 @@
 }
 
 @media(max-width:576px){
-    .alldivcount .time{
+    .alldivcount .alltimecount{
         width: 300px;
+        font-size: 13px;
+    }
+    .alldivcount .timer{
+        font-size: 17px;
+    }
+    .alldivcount .alltimecount .dys{
+        margin-left: 10px;
     }
 }
 

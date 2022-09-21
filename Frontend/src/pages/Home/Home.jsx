@@ -11,6 +11,9 @@ import '../Products/Product.css'
 
 
 const Home = () => {
+  useEffect(() => {
+    document.title = 'Home';
+  });
   const [cards , setCards] = useState([])
 
   useEffect(() => {

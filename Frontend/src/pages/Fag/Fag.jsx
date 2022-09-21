@@ -3,6 +3,9 @@ import React, { useEffect, useState } from 'react'
 import "./Fag.css"
 
 const Fag = () => {
+    useEffect(() => {
+        document.title = 'FAQs';
+      });
     const[fags,setFags]=useState([])
 
     useEffect(() => {

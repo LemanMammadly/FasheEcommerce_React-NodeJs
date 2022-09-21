@@ -6,7 +6,7 @@ footer .top a{
     transition: 0.5s;
 }
 footer .top a:hover{
-    color: #E55540;
+    color:  #012755;
 }
 
 footer .top h4{
@@ -29,7 +29,7 @@ footer a i{
     transition: 0.5s;
 }
 footer a i:hover{
-    color: #E55540;
+    color:#012755;
 }
 footer .all-links a{
     text-decoration: none;
@@ -65,7 +65,7 @@ footer .btnn{
     transition: .5s;
 }
 footer .btnn:hover{
-    background-color: #E55540;
+    background-color: #012755;
 }
 
 footer .newsletter{

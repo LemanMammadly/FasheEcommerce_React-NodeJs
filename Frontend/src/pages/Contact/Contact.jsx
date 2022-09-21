@@ -5,6 +5,9 @@ import './Contact.css'
 import Iframe from 'react-iframe'
 
 const Contact = () => {
+    useEffect(() => {
+        document.title = 'Contact';
+      });
     const history=useNavigate()
 
     const [inputs,setInputs]=useState({

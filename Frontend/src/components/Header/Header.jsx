@@ -55,7 +55,7 @@ const Header = () => {
                     <div className="all-link">
                         <NavLink to="/">Home</NavLink>
                         <NavLink to="/shop">Shop</NavLink>
-                        <a className="red" href="/sale">Sale</a>
+                        <a className="blue" href="/sale">Sale</a>
                         <a href="/features">Features</a>
                         <a href=".blog">Blog</a>
                         <NavLink to="/about">About</NavLink>

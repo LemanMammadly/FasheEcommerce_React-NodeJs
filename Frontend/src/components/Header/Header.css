@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 header{
-  position: absolute;
   width: 100%;
   top: 0;
   left: 0;
@@ -48,8 +49,8 @@ header .all-link a::after{
 header .all-link a:hover{
     color: black;
   }
-header .all-link .red{
-    color:#ec7665;
+header .all-link .blue{
+    color:#244568;
   }
 header .all-link a:hover::after{
     display: block;

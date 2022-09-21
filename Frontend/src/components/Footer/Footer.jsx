@@ -46,11 +46,11 @@ const Footer = () => {
                         <div className="row all-links">
                                 <p>Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+994) {settingss.phone}</p>
                                     <div>
-                                        <a href="/"><i className={settingss.icon1}></i></a>
-                                        <a href="/"><i className={settingss.icon2}></i></a>
-                                        <a href="/"><i className={settingss.icon3}></i></a>
-                                        <a href="/"><i className={settingss.icon4}></i></a>
-                                        <a href="/"><i className={settingss.icon5}></i></a>
+                                        <a href="https://www.facebook.com/" target="blank"><i className={settingss.icon1}></i></a>
+                                        <a href="https://www.instagram.com/" target="blank"><i className={settingss.icon2}></i></a>
+                                        <a href="https://www.pinterest.com/" target="blank"><i className={settingss.icon3}></i></a>
+                                        <a href="https://www.snapchat.com/" target="blank"><i className={settingss.icon4}></i></a>
+                                        <a href="https://www.youtube.com/" target="blank"><i className={settingss.icon5}></i></a>
                                     </div>
                             </div>
                         ))}
