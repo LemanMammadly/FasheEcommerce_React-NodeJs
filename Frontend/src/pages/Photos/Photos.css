@@ -20,6 +20,9 @@
     transform: scale(1.1);
     transition: 0.9s;
 }
+#category img{
+    transition: 0.9s;
+}
 
 #category .textcat{
     position: absolute;

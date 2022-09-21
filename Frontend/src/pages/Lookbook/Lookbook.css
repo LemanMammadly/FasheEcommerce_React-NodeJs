@@ -25,6 +25,9 @@
     text-align: center;
     margin-top: 100px;
 }
+.alldivcount .hll{
+    cursor: pointer;
+}
 .alldivcount .h5{
     margin-bottom: -40px !important;
     font-weight: bold;

@@ -45,8 +45,8 @@ const sideItemStyle={
 const linkContainerStyle={
     height:"auto",
     width:"259px",
-    background:"#262626",
-    borderTop:"1px solid #d6d6d6",
+    backgroundImage:"linear-gradient(90deg, rgb(46, 43, 46), rgb(50, 50, 50), rgb(9, 9, 9))",
+    border:"1px solid #000"
     
 }
 

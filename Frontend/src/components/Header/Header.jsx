@@ -55,9 +55,9 @@ const Header = () => {
                     <div className="all-link">
                         <NavLink to="/">Home</NavLink>
                         <NavLink to="/shop">Shop</NavLink>
-                        <a className="blue" href="/sale">Sale</a>
-                        <a href="/features">Features</a>
-                        <a href=".blog">Blog</a>
+                        <NavLink className="blue" to="/sale">Sale</NavLink>
+                        <NavLink to="/features">Features</NavLink>
+                        <NavLink to=".blog">Blog</NavLink>
                         <NavLink to="/about">About</NavLink>
                         <NavLink to="/contact">Contact</NavLink>
                     </div>
