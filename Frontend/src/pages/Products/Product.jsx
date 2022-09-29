@@ -33,7 +33,7 @@ const Product = () => {
         <div className="top">
           <h3>FEATURED PRODUCTS</h3>
         </div>
-        {product&&product.map((productss)=>(
+        {product&&product.slice(0,12).map((productss)=>(
           <div className="bottom all col-lg-3 mb-5">
           <div className="box">
           <div className="btm-img">
@@ -43,7 +43,7 @@ const Product = () => {
             </div>
           </div>
           <div className="btm-text">
-            <a href="/">{productss.title}</a>
+            <a href="/shoppage">{productss.title}</a>
             <span>{productss.price} AZN</span>
           </div>
           </div>
@@ -56,7 +56,7 @@ const Product = () => {
     model===true ? <Modal image={tempdata[1]} title={tempdata[2]} price={tempdata[3]} hide={()=>setModel(false)}/> :" "
   }
   <div className='loadmorediv'>
-    <NavLink className='loadmore' to='/'>LOAD MORE</NavLink>
+    <NavLink className='loadmore' to='/shoppage'>LOAD MORE</NavLink>
   </div>
  </>
   )

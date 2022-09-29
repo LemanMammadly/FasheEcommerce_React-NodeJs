@@ -5,6 +5,7 @@ import './Photos.css'
 const Photos = () => {
 
     const[photos,setPhotos]=useState([])
+    
 
     useEffect(() => {
         axios.get('http://localhost:5000/photos')
@@ -23,7 +24,6 @@ const Photos = () => {
                     <div className="col-lg-4 photo">
                     <div className="img-cat">
                     <img className='img-fluid' src={photoss.image} alt="" />
-                    
                     </div>
                 </div>
                 ))}

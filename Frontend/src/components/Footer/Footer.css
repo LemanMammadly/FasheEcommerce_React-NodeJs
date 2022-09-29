@@ -48,7 +48,7 @@ footer input{
 }
 
 footer input:focus{
-    border-bottom: 1px solid #E55540;
+    border-bottom: 1px solid #012755;
 }
 
 footer input:focus::placeholder{

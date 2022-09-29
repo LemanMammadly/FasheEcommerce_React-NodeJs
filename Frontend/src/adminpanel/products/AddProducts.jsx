@@ -30,7 +30,8 @@ const AddProducts = () => {
 
     const handleSubmit=(e)=>{
         e.preventDefault();
-        sendRequest().then(()=>history('/admin'));
+        sendRequest().then(()=>history('/addproducts'));
+        window.location.reload();
     }
 
   return (

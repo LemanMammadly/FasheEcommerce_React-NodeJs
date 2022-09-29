@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.shoppage{
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem 0 0 0;
+}
+.shoppage .top{
+    position: relative;
+}
+.shoppage .top .left a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgb(108, 108, 108);
+    font-weight: 400;
+    margin-left: 25px;
+    position: relative;
+}
+
+.shoppage .top .left a::after{
+   content: '';
+   position: absolute;
+   background-color: rgb(123, 123, 123);
+   height: 2px;
+   width: 0;
+   left: 0;
+   bottom: -3px;
+   transition: 0.5s;
+}
+
+.shoppage .top .left a:hover:after{
+    width: 100%;
+}
+
+.shoppage .top .right a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgb(108, 108, 108);
+    font-weight: 400;
+}
+
+.shoppage .top .right button{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgb(108, 108, 108);
+    font-weight: 400;
+}
+
+.shoppage .right .all{
+    position: sticky;
+    top: 550px;
+    left: 50%;
+    transform: translate(-51%, 0%);
+    width: 1298px !important;
+    margin: auto;
+}
+.shoppage .right .card-body{
+    background-color: rgb(242, 242, 242);
+    border: 0;
+    padding: 20px;
+}
+
+.shoppage .right .card-body h6{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color:#000;
+    margin-top: 6px;
+}
+.shoppage .right .card-body a{
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-left: 3px;
+    color: #aaaaaa;
+    margin-top: 10px;
+    transition: .5s;
+}
+
+.shoppage .right .card-body a:hover{
+    color: #717FDF;
+}
+
+.shoppage .right .card-body .tags .tag{
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 0 3px;
+    min-height: 40px;
+    margin-bottom: 29px;
+    margin-right: 28px;
+}
+
+.shoppage .right .card-body i{
+    font-size: 13px;
+    margin-right: 5px;
+}
+.shoppage .right .card-body input{
+    border: none;
+    outline: none;
+    background-color: #F2F2F2;
+    margin-left: 3px;
+}
+.shoppage .right .black{
+    background-color: #000;
+}
+
+#featured{
+    padding: 1rem 0 0 0;
+}
+#featured .top h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+#featured .bottom .btm-text{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+#featured .bottom .btm-text a{
+    text-decoration: none;
+    color: #555;
+}
+
+#featured .bottom .btm-text span{
+    color: #555;
+    margin-top: 10px;
+}
+
+#featured .box{
+    position: relative;
+}
+
+#featured .btn{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#featured .btn{
+    color: #fff;
+    background-color: #111;
+    padding: 9px 24px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: .5s;
+    margin-top: 7px;
+}
+#featured .btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.loadmorediv{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.loadmore{
+    text-align: center;
+    background-color: #111;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-size: 14px;
+    transition: .5s;
+    margin-top: 7px;
+    margin: auto;
+    color: #fff;
+}
+
+.loadmore:hover{
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #111;
+    text-decoration: none;
+}
+
+
+@media (max-width: 576px) {
+    #featured .all{
+        text-align: center;
+    }
+    #featured .top h3{
+        font-size: 25px;
+    }
+}
+
+@media(max-width : 992px) and (min-width:576px){
+    #featured .all .btm-text{
+        font-size: 26px;
+    }
+}

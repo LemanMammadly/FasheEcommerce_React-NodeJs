@@ -32,6 +32,7 @@ import AddFags from './adminpanel/fags/AddFags';
 import FagsDetail from './adminpanel/fags/FagsDetail';
 import UpdateFags from './adminpanel/fags/UpdateFags';
 import ScrollTop from './components/ScrollTop/ScrollTop';
+import ShopPage from './pages/ShopPage/ShopPage';
 
 
 
@@ -70,6 +71,7 @@ function App() {
       <Route path='/addfags' element={<AddFags/>}/>
       <Route path='/fagsDetail' element={<FagsDetail/>}/>
       <Route path='/updateFags/:id' element={<UpdateFags/>}/>
+      <Route path='/shoppage' element={<ShopPage/>}/>
     </Routes>
     <Footer/>
     </ScrollTop>

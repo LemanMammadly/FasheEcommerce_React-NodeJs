@@ -54,9 +54,9 @@ const Header = () => {
                 <div className="row center col-lg-6 text-end">
                     <div className="all-link">
                         <NavLink to="/">Home</NavLink>
-                        <NavLink to="/shop">Shop</NavLink>
+                        <NavLink to="/shoppage">Shop</NavLink>
                         <NavLink className="blue" to="/sale">Sale</NavLink>
-                        <NavLink to="/features">Features</NavLink>
+                        <NavLink to="/fags">FAQs</NavLink>
                         <NavLink to=".blog">Blog</NavLink>
                         <NavLink to="/about">About</NavLink>
                         <NavLink to="/contact">Contact</NavLink>
