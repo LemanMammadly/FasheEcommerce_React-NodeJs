@@ -16,7 +16,7 @@ const Instagram = () => {
     <div className="instagram">
             <div>
                 <div className="h3 top">
-                    <h3>@FOLLOW US ON INSTAGRAM</h3>
+                    <h3>FOLLOW US ON INSTAGRAM</h3>
                 </div>
                 <div className="bottom row justify-content-between imgsdiv">
                 { instagram && instagram.map((instagramss)=>(
