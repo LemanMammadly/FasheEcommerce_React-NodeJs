@@ -7,4 +7,5 @@ export const items=[
     {itemText:"ABOUT",itemLink:"/about"},
     {itemText:"CONTACT",itemLink:"/contact"},
     {itemText:"LOGIN",itemLink:"/login"} ,
+    {itemText:"REGISTER",itemLink:"/signup"} 
 ]
