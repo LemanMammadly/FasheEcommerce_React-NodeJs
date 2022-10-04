@@ -35,6 +35,7 @@ import ScrollTop from './components/ScrollTop/ScrollTop';
 import ShopPage from './pages/ShopPage/ShopPage';
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
+import Blog from './pages/Blog/Blog';
 
 
 
@@ -76,6 +77,7 @@ function App() {
       <Route path='/shoppage' element={<ShopPage/>}/>
       <Route path='/login' element={<Login/>}/>
       <Route path='/signup' element={<Register/>}/>
+      <Route path='/blog' element={<Blog/>}/>
     </Routes>
     <Footer/>
     </ScrollTop>
