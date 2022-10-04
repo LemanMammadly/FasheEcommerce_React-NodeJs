@@ -24,7 +24,7 @@ const Slideer = () => {
             <div className="text1">
                   <span>{sliders.description}</span>
                   <h2>{sliders.title}</h2>
-                  <a href="/">SHOP NOW</a>
+                  <a href="/shoppage">SHOP NOW</a>
               </div>
           </div>  ))
       } 
