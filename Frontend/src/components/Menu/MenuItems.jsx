@@ -5,5 +5,6 @@ export const items=[
     {itemText:"FEATURES",itemLink:"/features"},
     {itemText:"BLOG",itemLink:"/blog"},
     {itemText:"ABOUT",itemLink:"/about"},
-    {itemText:"CONTACT",itemLink:"/contact"} 
+    {itemText:"CONTACT",itemLink:"/contact"},
+    {itemText:"LOGIN",itemLink:"/login"} ,
 ]
