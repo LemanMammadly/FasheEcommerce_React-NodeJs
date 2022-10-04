@@ -68,18 +68,18 @@ const Footer = () => {
                     <div className="categories col-lg-1">
                         <h4>CATEGORIES</h4>
                         <div className="row all-links">
-                            <NavLink to='shoppage'>Men</NavLink>
-                            <NavLink to='shoppage'>Women</NavLink>
-                            <NavLink to='shoppage'>Dresses</NavLink>
-                            <NavLink to='shoppage'>Sunglasses</NavLink>
+                            <NavLink to='/shoppage'>Men</NavLink>
+                            <NavLink to='/shoppage'>Women</NavLink>
+                            <NavLink to='/shoppage'>Dresses</NavLink>
+                            <NavLink to='/shoppage'>Sunglasses</NavLink>
                         </div>
                     </div>
                     <div className="links col-lg-1">
                             <h4>LINKS</h4>
                             <div className="all-links row">
                             <a href="/">Search</a>
-                            <NavLink to='about'>About Us</NavLink>
-                            <NavLink to='contact'>Contact Us</NavLink>
+                            <NavLink to='/about'>About Us</NavLink>
+                            <NavLink to='/contact'>Contact Us</NavLink>
                             <a href="/">Returns</a>
                             </div>
                     </div>
