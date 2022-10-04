@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+.blog {
+    font-family: 'Cormorant Garamond', serif;
+}
+.blog .top{
+   background-color: #F8F8F8;
+   text-align: center;
+   padding: 12rem 0;
+}
+
+.blog .top h1{
+    font-size: 70px;
+    margin: 20px 0;
+}
+.blog .right span{
+    margin-right: 15px;
+}
+.blog .right{
+    margin-top: 10rem;
+}
+
+.blog .right .header{
+    font-size: 90px;
+    text-decoration: underline #444;
+    transition: .5s;
+}
+.blog .right .header:hover{
+    color: #333;
+    text-decoration: underline #f4bf2c;
+}
+
+.blog .left{
+    background-image: url("https://static.pullandbear.net/2/photos//2022/I/0/1/p/8590/406/401/8590406401_2_10_8.jpg?t=1664461765206&imwidth=750");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+}
+
+.blog .left1{
+    background-image: url("https://static.pullandbear.net/2/photos//2022/I/0/1/p/8247/395/429/02/8247395429_6_1_8.jpg?t=1664360790152&imwidth=750");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.blog .left3{
+    background-image: url("https://static.pullandbear.net/2/photos//2022/I/0/1/p/8590/428/410/8590428410_2_10_8.jpg?t=1664461769096&imwidth=750");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.blog .left4{
+    background-image: url("https://static.pullandbear.net/2/photos//2022/I/0/1/p/8399/425/800/02/8399425800_6_1_8.jpg?t=1663845898156&imwidth=750");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+}
+
+.blog .pages{
+    padding: 4rem 0;
+    font-family: serif;
+}
+
+.blog .pages a{
+    margin-left: 8px;
+    font-size: 23px;
+    transition: .6s;
+    margin-left: 30px;
+}
+
+.blog .pages .first{
+    background-color: rgb(163, 162, 162);
+    padding: 3px 9px;
+
+}
+
+.blog .pages a:hover{
+    background-color: black;
+    color: #fff;
+    padding: 3px 9px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.blog .bottompage{
+    background-color: #f4bf2c;
+    padding: 3rem 0;
+}
+
+.blog .form{
+    margin: auto;
+    border: 1px solid #333;
+}
+.blog input{
+    border: none;
+    outline: none;
+    background-color: #f4bf2c;
+}
+.blog input::placeholder{
+    color: black;
+}
+.blog input:focus{
+    background-color: #f4bf2c;
+    outline: none;
+}
+.blog .btn{
+    font-size: 13px;
+}
+.blog .btn:hover{
+    background-color: black;
+}
