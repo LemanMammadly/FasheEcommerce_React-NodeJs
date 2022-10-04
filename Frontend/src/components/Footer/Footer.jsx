@@ -59,15 +59,6 @@ const Footer = () => {
                     <div className="categories col-lg-1">
                         <h4>CATEGORIES</h4>
                         <div className="row all-links">
-                            <a href="/">Men</a>
-                            <a href="/">Women</a>
-                            <a href="/">Dresses</a>
-                            <a href="/">Sunglasses</a>
-                        </div>
-                    </div>
-                    <div className="categories col-lg-1">
-                        <h4>CATEGORIES</h4>
-                        <div className="row all-links">
                             <NavLink to='/shoppage'>Men</NavLink>
                             <NavLink to='/shoppage'>Women</NavLink>
                             <NavLink to='/shoppage'>Dresses</NavLink>
