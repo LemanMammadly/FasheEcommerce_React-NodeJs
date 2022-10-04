@@ -105,11 +105,13 @@ const ShopPage = () => {
                       </div>
                       <div className="fourth col-lg-3 tags">
                         <h6 className="tagss">Tags</h6>
-                        <a className="tag" href="">Fashion</a>
-                        <a className="tag" href="">Lifestyle</a>
-                        <a className="tag" href="">Denim</a>
-                        <a className="tag" href="">Streetstyle</a>
-                        <a className="tag" href="">Crafts</a>
+                        <div className="d-flex flex-wrap">
+                       <div className="mb-2 me-2"> <a className="tag" href="">Fashion</a></div>
+                       <div className="mb-2 me-2"> <a className="tag" href="">Lifestyle</a></div>
+                       <div className="mb-2 me-2"> <a className="tag" href="">Denim</a></div>
+                       <div className="mb-2 me-2"> <a className="tag" href="">Streetstyle</a></div>
+                       <div className="mb-2 me-2"> <a className="tag" href="">Crafts</a></div>
+                        </div>
                       </div>
                      </div>
                     </div>
