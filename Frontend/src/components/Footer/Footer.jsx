@@ -65,23 +65,23 @@ const Footer = () => {
                             <a href="/">Sunglasses</a>
                         </div>
                     </div>
+                    <div className="categories col-lg-1">
+                        <h4>CATEGORIES</h4>
+                        <div className="row all-links">
+                            <NavLink to='shoppage'>Men</NavLink>
+                            <NavLink to='shoppage'>Women</NavLink>
+                            <NavLink to='shoppage'>Dresses</NavLink>
+                            <NavLink to='shoppage'>Sunglasses</NavLink>
+                        </div>
+                    </div>
                     <div className="links col-lg-1">
                             <h4>LINKS</h4>
                             <div className="all-links row">
                             <a href="/">Search</a>
-                            <a href="/">About Us</a>
-                            <a href="/">Contact Us</a>
+                            <NavLink to='about'>About Us</NavLink>
+                            <NavLink to='contact'>Contact Us</NavLink>
                             <a href="/">Returns</a>
                             </div>
-                    </div>
-                    <div className="help all-links col-lg-1">
-                      <h4>HELPS</h4>
-                      <div className="row all-links">
-                        <a href="/">Track Order</a>
-                        <a href="/">Returns</a>
-                        <a href="/">Shipping</a>
-                        <NavLink to="/fags">FAQs</NavLink>
-                      </div>
                     </div>
                     <div className="newsletter col-lg-3">
                      <h4>NEWSLETTER</h4>
