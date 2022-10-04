@@ -46,18 +46,18 @@ header .all-link a{
     cursor: pointer;
   }
 
-  header .right .bagicon{
+  header .right .shop{
     position: relative;
   }
   header .right p{
     position: absolute;
     background-color: #012755;
     color: #fff;
-    font-size: 10px;
-    padding:3px 6px;
+    font-size: 9px;
+    padding:1px 4px;
     border-radius: 50%;
     position: absolute;
-    bottom: 0px;
+    bottom: -10px;
     left: 16px;
   }
  
@@ -65,12 +65,10 @@ header img{
     cursor: pointer;
   }
 
-header i{
-    font-size: 26px !important;
-    color: rgb(180, 175, 175);
-    position: relative;
-    cursor: pointer;
-  }
+header .icon{
+  font-size: 20px;
+  margin-left: 10px;
+}
 
 header .burgermenu{
   display: none;
@@ -88,12 +86,13 @@ header .burgermenu{
     header .right{
         display: flex;
     }
-    header .right i{
-        margin: 0 !important;
+    header .user{
+      display: none;
     }
     header .burgermenu{
       display: block;
     }  
+     
   }
 
 
@@ -107,8 +106,8 @@ header .burgermenu{
     header .right{
         display: flex;
     }
-    header .right i{
-        margin: 0 !important;
+    header .user{
+      display: none;
     }
     header .all{
         display: flex !important;

@@ -4,6 +4,9 @@ import { NavLink, useLocation } from 'react-router-dom';
 import { Cart } from '../Context/Context';
 import Menu from '../Menu/Menu';
 import './Header.css'
+import {FiLogIn} from "react-icons/fi"
+import {BiUserCircle} from "react-icons/bi"
+import {AiOutlineShopping} from 'react-icons/ai'
 
 const Header = () => {
    
@@ -62,16 +65,15 @@ const Header = () => {
                         <NavLink to="/contact">Contact</NavLink>
                     </div>
                 </div>
-                {/* <div className="logsign col-lg-1">
-                   { !isLoggedIn && <><NavLink to='/login'>LOGIN</NavLink>
-                    <NavLink to='/signup'>SIGNUP</NavLink></> }
-                 {isLoggedIn&& <NavLink to='/' onClick={handleLogout} >LOGOUT</NavLink>}{" "}
-                </div> */}
-                <div className="right col-lg-3 text-end col-5 col-sm-4 col-md-3 justify-content-between">
-                    <i className="fa-solid fa-circle-user mx-4"></i>
-                   {/* <i className="fa-solid fa-bag-shopping second bagicon">({cart.length})</i> */}
-                   <NavLink to='/card'>
-                   <i className="fa-solid fa-bag-shopping second bagicon"><p>{cart.length}</p></i>
+                <div className="right col-lg-3 text-end col-3 col-sm-4 col-md-3 justify-content-between">
+                    <NavLink to="/login" className="icon user">
+                        <FiLogIn/>
+                    </NavLink>
+                    <NavLink to="/signup" className="icon user">
+                        <BiUserCircle/>
+                    </NavLink>
+                   <NavLink to='/card' className='shop icon'>
+                        <AiOutlineShopping/> <p>{cart.length}</p>
                    </NavLink>
                     <div className="burgermenu">
                     <span className='material-icons menu-btn'
