@@ -7,6 +7,7 @@ import './Header.css'
 import {FiLogIn} from "react-icons/fi"
 import {BiUserCircle} from "react-icons/bi"
 import {AiOutlineShopping} from 'react-icons/ai'
+import {GiHamburgerMenu} from 'react-icons/gi'
 
 const Header = () => {
    
@@ -75,9 +76,9 @@ const Header = () => {
                    <NavLink to='/card' className='shop icon'>
                         <AiOutlineShopping/> <p>{cart.length}</p>
                    </NavLink>
-                    <div className="burgermenu">
+                   <div className="burgermenu">
                     <span className='material-icons menu-btn'
-                    onClick={()=>setIsOpen(true)}><i class="fa-solid fa-bars"></i></span>
+                    onClick={()=>setIsOpen(true)}><GiHamburgerMenu className='burgermenu'/> </span>
                     <Menu isOpen={isOpen} onChange={setIsOpen}></Menu>
                     </div>
                 </div>
