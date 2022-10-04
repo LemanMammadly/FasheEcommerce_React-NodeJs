@@ -1,0 +1,85 @@
+#login {
+    display: flex;
+    height: 100vh;
+    background: #CDD1BF;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+  }
+  #login .form-container{
+    width: 400px;
+    height: 500px;
+    padding: 50px 70px;
+    background: #293B59;
+    border-radius: 9px 0 0 9px;
+    box-shadow: 0 2px 4px -2 rgba(0, 0, 0, 0.6);
+  }
+ #login .form-container form {
+    display: grid;
+    grid-template-rows: 50px 300px 50px;
+  }
+ #login .form-container form fieldset {
+    margin-top: 30px;
+  }
+ #login .form-container form h1 {
+    color: #f9fbfc;
+    font-size: 32px;
+    text-align: center;
+  }
+ #login .form-container form .name, .form-container form .password {
+    display: flex;
+  }
+ #login .form-container form .name input:last-of-type, .form-container form .password input:last-of-type {
+    margin-left: 10px;
+  }
+ #login .form-container form .email p {
+    color: #a9a9b7;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #login .form-container form input {
+    width: 100%;
+    padding: 8px;
+    display: block;
+    color: #a9a9b7;
+    margin-top: 15px;
+    background: none;
+    border-radius: 6px;
+    border: 1px solid #393b63;
+  }
+ #login .form-container form input:focus {
+    color: #f9fbfc;
+    border: none;
+  }
+  #login .form-container form input::placeholder {
+    color: #a9a9b7;
+  }
+ #login .form-container form button {
+    width: 100%;
+    height: 30px;
+    color: #333;
+    cursor: pointer;
+    border-radius: 8px;
+    background: #fff;
+    text-transform: uppercase;
+    transition: background 500ms ease-in-out;
+  }
+#login aside {
+    width: 400px;
+    height: 510px;
+    transition: transform 2s ease-in-out;
+    animation: moveRight 6s;
+    border-radius: 0 9px 9px 0;
+    animation-fill-mode: forwards;
+    box-shadow: 0 2px 4px -2 rgba(0, 0, 0, 0.6);
+    background: url(https://static.pullandbear.net/2/photos//2022/I/0/1/p/8750/326/430/02/8750326430_6_1_8.jpg?t=1663856506492&imwidth=750) no-repeat center center / cover;
+  }
+  @keyframes moveRight {
+    0% {
+      transform: translateX(-400px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
